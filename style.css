@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: large;
+    font-weight: bold;
+    color: #000;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e9c46a;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #264653;
+    border-radius: 1rem;
+    background-color: antiquewhite;
+}
+
+.container {
+    background-color: #2a9d8f;
+    border-radius: 1rem;
+    border: 3px solid #264653;
+    padding: 2rem;
+    min-height: 50vh;
+    width: 40vh;
+    /* box-shadow: 10px 10px 10px; */
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    background-color: transparent;
+
+}
+
+form input {
+    border: 2px solid #264653;
+    font-size: 1.2rem;
+    height: 2rem;
+    padding-left: 10px;
+    background-color: lightblue;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.dropdown i {
+    font-size: 2rem;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border: 2px solid #264653;
+    border-radius: 0.75rem;
+    background-color: lightblue;
+    padding: 3px;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+}
+
+.result {
+    margin: 2rem 0 2rem 0;
+}
+
+#msg {
+    text-align: center;
+    padding: 0.4rem;
+    border: 2px solid #264653;
+    border-radius: 0.75rem;
+    background-color: lightgreen;
+}
+
+form button {
+    background-color: #264653;
+    color: antiquewhite;
+    height: 3rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.alert {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    line-height: 1.8;
+    border-radius: 5px;
+}
+
+.alertText {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.error {
+    background-color: rgb(255, 219, 219);
+    border: 1px solid red;
+    color: #A66;
+}
+
+.disp{
+    display: none;
+}
